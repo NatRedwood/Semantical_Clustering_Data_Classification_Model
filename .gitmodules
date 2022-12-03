@@ -1,0 +1,9 @@
+[submodule "Unsupervised-Classification"]
+	path = Unsupervised-Classification
+	url = https://github.com/wvangansbeke/Unsupervised-Classification
+[submodule "2022-IJCV-TCL"]
+	path = 2022-IJCV-TCL
+	url = https://github.com/XLearning-SCU/2022-IJCV-TCL
+[submodule "SPICE"]
+	path = SPICE
+	url = https://github.com/niuchuangnn/SPICE
