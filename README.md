@@ -42,7 +42,7 @@ ORDER 1
 2
 
 Semantic Clustering
-● ordering by class hierarchically; descending number of
+* ● ordering by class hierarchically; descending number of
 texts assigned to one superclass - EXPERIMENTAL
 ORDER 3 (the opposite of Curriculum Learning)
 ● ordering by class hierarchically; ascending number of texts
