@@ -1,9 +1,10 @@
 # Semantical Clustering Data Classification Model
 
-Natalia Wojarnik, Cutter Dalton
-Final Project Presentation
-Neural Networks and Deep Learning
-Fall 2022, CU Boulder
+### Natalia Wojarnik, Cutter Dalton
+### Final Project Presentation
+### Neural Networks and Deep Learning
+### Fall 2022, CU Boulder
+### Link to the presentation: https://www.youtube.com/watch?v=JaZJi7Fr8bw
 
 # What and why?
 ## Motivations and Improved Solutions
