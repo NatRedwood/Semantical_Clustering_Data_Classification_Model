@@ -36,19 +36,19 @@ Around 210k news headlines from 2012 to 2022 from HuffPost.
 # How did we approach this?
 ## Data Orderings
 Alphabetic Clustering
-● ordering by superclass alphabetically - EXPERIMENTAL
+* ordering by superclass alphabetically - EXPERIMENTAL
 ORDER 1
-● ordering by class alphabetically - EXPERIMENTAL ORDER
+* ordering by class alphabetically - EXPERIMENTAL ORDER
 2
 
 Semantic Clustering
-* ● ordering by class hierarchically; descending number of
+* ordering by class hierarchically; descending number of
 texts assigned to one superclass - EXPERIMENTAL
 ORDER 3 (the opposite of Curriculum Learning)
-● ordering by class hierarchically; ascending number of texts
+* ordering by class hierarchically; ascending number of texts
 assigned to one superclass - EXPERIMENTAL ORDER 4
 (Curriculum Learning approach)
-● ordering by class hierarchically; shuffled within one
+* ordering by class hierarchically; shuffled within one
 superclass- EXPERIMENTAL ORDER 5 (the opposite of
 Curriculum Learning)
 
@@ -64,19 +64,19 @@ main focus of our project, although Model2 performed significantly better.
 
 # What did we learn?
 ## Conclusions
-● All the models trained on the experimental data orderings did better than the baseline
+* All the models trained on the experimental data orderings did better than the baseline
 models with randomly shuffled training data examples.
-● The best performing data ordering (ORDER 4) was semantically clustered within one
+* The best performing data ordering (ORDER 4) was semantically clustered within one
 superclass and also ordered in the ascending order where the first superclass had the
 most number of headlines and the last one - the least number of headlines.
-● Second best model was also clustered within one superclass but surprisingly, the data
+* Second best model was also clustered within one superclass but surprisingly, the data
 examples were shuffled within one cluster.
-● ORDER 1 had the poorest performance. This data ordering was not clustered
+* ORDER 1 had the poorest performance. This data ordering was not clustered
 semantically but only alphabetically to group together same news headlines within one
 superclass. Semantically clustered data did better than alphabetically ordered.
-● Curriculum Learning seems to be the key component to data ordering techniques
+* Curriculum Learning seems to be the key component to data ordering techniques
 bringing best results to the models.
-● LSTM and GRU layers improved the performance and helped to process long
+* LSTM and GRU layers improved the performance and helped to process long
 sequences and preserve the features of previous input at each time step.
-● Further experiments with data ordering and clustering combined with the Curriculum
+* Further experiments with data ordering and clustering combined with the Curriculum
 Learning approach are planned to be conducted to explore the presented phenomenon.
